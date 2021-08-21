@@ -46,7 +46,7 @@ document.getElementById('appy-button').addEventListener('click',function(){
 
     const updateTotalText=document.getElementById('update-total');
     if(appyValue=="stevekaku"){
-        const updateTotal=total+ total*.2;
+        const updateTotal=total- total*.2;
         updateTotalText.innerText=updateTotal;
     }
     else{
